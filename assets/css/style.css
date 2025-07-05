@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Righteous);
+
+body {
+	text-align: center;
+	background-color: #000;
+}
+
+h2 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+h3 {
+	font-family: "Press Start 2P", cursive;
+	color: whitesmoke;
+}
+
+.btn {
+	height: 12rem;
+	width: 12rem;
+	/* margin: 1rem; */
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	background: rgba(20, 20, 20, 1);
+	opacity: 0.5;
+	border: 20px solid rgb(48, 48, 48);
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+#btn1 {
+	/* background-color: #bf4343; */
+	background: rgb(255, 0, 0);
+	cursor: pointer;
+	border-radius: 320px 0px 0px 0px;
+	border-right: none;
+	border-bottom: none;
+}
+
+#btn2 {
+	/* background-color: #bfae43; */
+	background: rgb(255, 255, 0);
+	cursor: pointer;
+	border-radius: 0px 0px 0px 320px;
+	border-top: none;
+	border-right: none;
+}
+
+#btn3 {
+	/* background-color: #43bf45; */
+	background: rgb(0, 255, 0);
+	cursor: pointer;
+	border-radius: 0px 320px 0px 0px;
+	border-left: none;
+	border-bottom: none;
+}
+
+#btn4 {
+	/* background-color: rgb(23, 0, 128); */
+	background: rgb(0, 0, 255);
+	cursor: pointer;
+	border-radius: 0px 0px 320px 0px;
+	border-top: none;
+	border-left: none;
+}
+
+.flash {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+	h2 {
+		font-size: medium;
+	}
+
+	h3 {
+		font-size: medium;
+	}
+
+	.btn {
+		height: 7rem;
+		width: 7rem;
+	}
+}

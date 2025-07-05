@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			http-equiv="Cache-Control"
+			content="no-store, no-cache, must-revalidate, max-age=0"
+		/>
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<meta name="author" content="Vansh Mistry" />
+		<meta
+			name="description"
+			content="This is a Simon Says Game created by Vansh Mistry"
+		/>
+		<link
+			rel="shortcut icon"
+			href="assets/img/favicon.png"
+			type="image/x-icon"
+		/>
+		<title>Simon Says Game | Vansh Mistry</title>
+	</head>
+	<body>
+		<h2>Simon Says Game | Vansh Mistry</h2>
+		<h3>Press "Enter" key to start the game.</h3>
+
+		<div class="btn-container">
+			<div class="line-one">
+				<div class="btn" id="btn1"></div>
+				<div class="btn" id="btn2"></div>
+			</div>
+			<div class="line-two">
+				<div class="btn" id="btn3"></div>
+				<div class="btn" id="btn4"></div>
+			</div>
+		</div>
+
+		<script src="assets/js/app.js"></script>
+		<script>
+			// Remove caches using JavaScript by forcing a reload
+			window.onload = function () {
+				// This forces the browser to reload the page without using the cache
+				if ("caches" in window) {
+					caches.keys().then(function (cacheNames) {
+						cacheNames.forEach(function (cacheName) {
+							caches.delete(cacheName); // Clear the cache
+						});
+					});
+				}
+			};
+		</script>
+	</body>
+</html>
