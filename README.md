@@ -47,11 +47,11 @@ Simon Says Game is a fun and interactive memory game built with HTML, CSS, and J
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vanshmistry602/Simon-Says-Game.git
+   git clone https://github.com/vanshmistry602/simon-says-game.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd Simon-Says-Game
+   cd simon-says-game
    ```
 3. Open the `index.html` file in your browser to start playing.
 
