@@ -11,6 +11,7 @@ Simon Says Game is a fun and interactive memory game built with HTML, CSS, and J
 - [How to Play](#how-to-play)
 - [Setup and Installation](#setup-and-installation)
 - [File Structure](#file-structure)
+- [Author](#author)
 
 ---
 
